@@ -7,7 +7,7 @@ import time
 
 # Konfigurasi halaman dengan tema custom
 st.set_page_config(
-    page_title="Deteksi Ikan Cupang AI",
+    page_title="Sistem Deteksi Ikan Cupang Menggunakan YOLOv8",
     page_icon="🐠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -119,7 +119,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header dengan emoji dan deskripsi
-st.markdown("<h1>🐠 Deteksi Ikan Cupang AI 🤖</h1>", unsafe_allow_html=True)
+st.markdown("<h1>🐠 Sistem Deteksi Ikan Cupang Menggunakan YOLOv8</h1>", unsafe_allow_html=True)
 st.markdown("""
     <div style='text-align: center; color: white; font-size: 1.2em; margin-bottom: 30px; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);'>
         <b>Sistem Deteksi Otomatis Menggunakan YOLOv8</b><br>
